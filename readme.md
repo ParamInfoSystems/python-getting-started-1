@@ -1,109 +1,78 @@
-Beginner Python Sessions
+# Beginner Python Sessions
 
-Session 1: Introduction & Setup
+## Session 1: Introduction & Setup
+- **Objective:** Get comfortable with Python environment and running code.
 
-Objective: Get comfortable with Python environment and running code.
+- **Flow:**
+  - Install Python & IDE (VS Code, PyCharm, or Jupyter Notebook).
+  - Run first script: print("Hello, World!").
+  - Explain REPL vs script execution.
 
-Flow:
+- **Practice:**
+  - Write a script that prints your name and age.
+  - Try running it both in REPL and as a .py file.
 
-Install Python & IDE (VS Code, PyCharm, or Jupyter Notebook).
+## Session 2: Data Types & Variables
 
-Run first script: print("Hello, World!").
+- **Objective:** Understand basic data types and variable usage.
 
-Explain REPL vs script execution.
+- **Flow:**
+  - Variables: assignment, naming rules.
+  - Data types: int, float, str, bool.
+  - Type conversion: int(), str(), float().
 
-Practice:
+- **Practice:**
+  - Store your name, age, and height in variables.
+  - Convert height from float to string and print a sentence.
 
-Write a script that prints your name and age.
+## Session 3: Control Flow
 
-Try running it both in REPL and as a .py file.
+- **Objective:** Learn decision-making and loops.
 
-Session 2: Data Types & Variables
+- **Flow:**
+  - if/else statements.
+  - Comparison operators (==, <, >, !=).
+  - Loops: for, while.
 
-Objective: Understand basic data types and variable usage.
+- **Practice:**
+  - Write a program that checks if a number is even or odd.
+  - Create a loop that prints numbers from 1 to 10.
 
-Flow:
+## Session 4: Functions
 
-Variables: assignment, naming rules.
+- **Objective:** Modularize code with functions.
 
-Data types: int, float, str, bool.
+- **Flow:**
+  - Defining functions with def.
+  - Parameters and return values.
+  - Scope of variables.
 
-Type conversion: int(), str(), float().
+- **Practice:**
+  - Write a function add_numbers(a, b) that returns the sum.
+  - Write a function that takes a name and prints a greeting.
 
-Practice:
+## Session 5: Collections
 
-Store your name, age, and height in variables.
+- **Objective:** Work with groups of data.
 
-Convert height from float to string and print a sentence.
+- **Flow:**
+  - Lists: indexing, slicing, methods (append, remove).
+  - Tuples: immutability.
+  - Sets: uniqueness.
+  - Dictionaries: key-value pairs.
 
-Session 3: Control Flow
+- **Practice:**
+  - Create a list of 5 fruits and print the second one.
+  - Make a dictionary with student names and marks, then print one student’s mark.
 
-Objective: Learn decision-making and loops.
+## Session 6: Mini Project — To-Do List App
 
-Flow:
+- **Objective:** Apply all beginner concepts in one project.
 
-if/else statements.
+- **Flow:**
+  - Use lists to store tasks.
+  - Functions to add/remove tasks.
+  - Loop to display menu until user exits.
 
-Comparison operators (==, <, >, !=).
-
-Loops: for, while.
-
-Practice:
-
-Write a program that checks if a number is even or odd.
-
-Create a loop that prints numbers from 1 to 10.
-
-Session 4: Functions
-
-Objective: Modularize code with functions.
-
-Flow:
-
-Defining functions with def.
-
-Parameters and return values.
-
-Scope of variables.
-
-Practice:
-
-Write a function add_numbers(a, b) that returns the sum.
-
-Write a function that takes a name and prints a greeting.
-
-Session 5: Collections
-
-Objective: Work with groups of data.
-
-Flow:
-
-Lists: indexing, slicing, methods (append, remove).
-
-Tuples: immutability.
-
-Sets: uniqueness.
-
-Dictionaries: key-value pairs.
-
-Practice:
-
-Create a list of 5 fruits and print the second one.
-
-Make a dictionary with student names and marks, then print one student’s mark.
-
-Session 6: Mini Project — To-Do List App
-
-Objective: Apply all beginner concepts in one project.
-
-Flow:
-
-Use lists to store tasks.
-
-Functions to add/remove tasks.
-
-Loop to display menu until user exits.
-
-Practice:
-
-Build a simple text-based to-do list manager.
+- **Practice:**
+  - Build a simple text-based to-do list manager.
